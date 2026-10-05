@@ -74,27 +74,43 @@ SPIN, MEDDIC, Challenger nằm ở repo bán hàng. Bên này không học lại
 
 ### Phần mềm mở
 
-Tự cài, tự giữ dữ liệu khách. Không phải khóa học. Số sao lấy khoảng tháng 10/2026.
+Tự cài, tự giữ dữ liệu khách. Không phải khóa học. Số sao lấy khoảng tháng 10/2026. Chọn một cái trong mỗi nhóm, không cài hết.
 
 **PostHog.** Xem khách còn đăng nhập và bấm gì, xem lại phiên dùng, gửi khảo sát. Khoảng 40 nghìn sao, khoảng 3.500 fork. Đây là chỗ biết họ có dùng hay chỉ trả tiền.
 
 https://github.com/PostHog/posthog
 
+**Metabase.** Bảng số cho người không viết SQL cả ngày: ai sắp hết hạn, ai im. Khoảng 50 nghìn sao, khoảng 7 nghìn fork.
+
+https://github.com/metabase/metabase
+
+**Apache Superset.** Cũng là bảng số, nặng hơn, cho team data. Khoảng 75 nghìn sao, khoảng 18 nghìn fork.
+
+https://github.com/apache/superset
+
+**Grafana.** Biểu đồ và cảnh báo khi một chỉ số tụt. Khoảng 77 nghìn sao, khoảng 15 nghìn fork. Hợp số máy và số dùng sản phẩm. Không hợp chuyện kể của từng khách.
+
+https://github.com/grafana/grafana
+
 **Chatwoot.** Hộp thư chat, email, WhatsApp khi khách cần người trả lời. Khoảng 37 nghìn sao, khoảng 9 nghìn fork.
 
 https://github.com/chatwoot/chatwoot
+
+**Discourse.** Diễn đàn để khách hỏi nhau, đỡ dồn hết về một hộp thư. Khoảng 48 nghìn sao, khoảng 9 nghìn fork.
+
+https://github.com/discourse/discourse
 
 **Outline.** Kho bài hướng dẫn cho khách tự đọc. Khoảng 41 nghìn sao, khoảng 3.600 fork.
 
 https://github.com/outline/outline
 
-**BookStack.** Cũng là kho tài liệu, đơn giản hơn Outline. Dự án đã chuyển khỏi GitHub.
+**Docmost.** Wiki, làm việc kiểu Confluence. Khoảng 22 nghìn sao, khoảng 1.600 fork.
+
+https://github.com/docmost/docmost
+
+**BookStack.** Kho tài liệu đơn giản hơn Outline. Dự án đã chuyển khỏi GitHub.
 
 https://codeberg.org/bookstack/BookStack
-
-**FastGPT.** Bot trả lời từ tài liệu mình đưa vào. Khoảng 30 nghìn sao, khoảng 7 nghìn fork. Dùng để khách tự hỏi việc thường gặp. Câu khó và câu đang giận thì người phải nhận.
-
-https://github.com/labring/FastGPT
 
 **Formbricks.** Khảo sát, trong đó có NPS. Khoảng 13 nghìn sao, khoảng 2.600 fork. Một câu hỏi gửi đúng lúc có ích hơn một biểu mẫu dài.
 
@@ -104,6 +120,14 @@ https://github.com/formbricks/formbricks
 
 https://github.com/knadh/listmonk
 
+**Mautic.** Chuỗi email và điểm số hành vi, nặng hơn Listmonk. Khoảng 11 nghìn sao, khoảng 3.500 fork.
+
+https://github.com/mautic/mautic
+
+**Novu.** Gửi thông báo trong app, email, SMS. Khoảng 40 nghìn sao, khoảng 4.500 fork.
+
+https://github.com/novuhq/novu
+
 **Cal.com.** Đặt lịch họp bắt đầu và họp kiểm tra. Repo tên `cal.diy`. Khoảng 49 nghìn sao, khoảng 15 nghìn fork.
 
 https://github.com/calcom/cal.diy
@@ -112,19 +136,79 @@ https://github.com/calcom/cal.diy
 
 https://github.com/n8n-io/n8n
 
+**Lago.** Đo mức dùng và tính tiền theo mức dùng. Khoảng 11 nghìn sao. Hợp khi khách hủy vì hóa đơn, không phải vì sản phẩm.
+
+https://github.com/getlago/lago
+
 **UVdesk.** Phần mềm ticket. Khoảng 20 nghìn sao.
 
 https://github.com/uvdesk/community-skeleton
 
-**Zammad.** Helpdesk kiểu hộp thư chung. Khoảng 6 nghìn sao, khoảng 1.000 fork. Đã có Chatwoot thì không cần thêm cái này.
+**Zammad.** Helpdesk kiểu hộp thư chung. Khoảng 6 nghìn sao, khoảng 1.000 fork.
 
 https://github.com/zammad/zammad
 
+**GLPI.** Helpdesk kiểu IT, kèm quản lý máy và license. Khoảng 6 nghìn sao, khoảng 1.800 fork.
+
+https://github.com/glpi-project/glpi
+
+**osTicket.** Ticket đời cũ, nhiều người fork. Khoảng 4 nghìn sao, khoảng 1.800 fork.
+
+https://github.com/osTicket/osTicket
+
+**FreeScout.** Hộp thư hỗ trợ, thay Help Scout. Khoảng 4.600 sao, khoảng 700 fork.
+
+https://github.com/freescout-help-desk/freescout
+
+**Frappe Helpdesk.** Ticket đi cùng hệ ERPNext. Khoảng 3.400 sao, khoảng 1.000 fork.
+
+https://github.com/frappe/helpdesk
+
+Đã có Chatwoot thì không cần thêm Zammad, GLPI, osTicket hay FreeScout. Mỗi cái hợp một kiểu đội.
+
 ### Agent và plugin
 
-Skill là file hướng dẫn cho Claude, Cursor, Codex. Nó soạn kế hoạch onboarding, tóm tắt tài khoản, nháp bài họp. Quyết định khách nào sắp hủy, và có giảm giá để giữ hay không, thì người phải quyết.
+Skill là file hướng dẫn cho Claude, Cursor, Codex. Nó soạn kế hoạch onboarding, tóm tắt tài khoản, nháp bài họp. Agent bên dưới là phần mềm để dựng bot trả lời từ tài liệu. Cả hai đều không được tự giảm giá để giữ khách. Câu khó và câu đang giận thì người phải nhận.
 
-Repo chỉ làm mỗi việc giữ khách hiện còn ít người dùng. Bộ đang được mở nhiều là bộ lớn bên dưới, phần customer success chỉ là một skill trong đó.
+Repo skill chỉ làm mỗi việc giữ khách hiện còn ít sao. Phần đông người dùng nằm ở các nền agent bên dưới.
+
+**Dify.** Dựng bot và quy trình AI, kèm tìm trong tài liệu. Khoảng 158 nghìn sao, khoảng 25 nghìn fork.
+
+https://github.com/langgenius/dify
+
+**RAGFlow.** Tìm trong tài liệu rồi trả lời, có chỗ cho agent. Khoảng 92 nghìn sao, khoảng 11 nghìn fork.
+
+https://github.com/infiniflow/ragflow
+
+**AnythingLLM.** Bot chạy từ file mình đưa, ưu tiên máy mình. Khoảng 67 nghìn sao, khoảng 7.500 fork.
+
+https://github.com/Mintplex-Labs/anything-llm
+
+**Flowise** đã bị đánh dấu archive. Đừng cài mới. Việc tương tự thì dùng Dify.
+
+**Onyx.** Chat trên tài liệu công ty, cho nhân viên tra trước khi trả lời khách. Khoảng 32 nghìn sao, khoảng 4.500 fork.
+
+https://github.com/onyx-dot-app/onyx
+
+**FastGPT.** Bot trả lời từ tài liệu, có sẵn luồng việc. Khoảng 30 nghìn sao, khoảng 7 nghìn fork.
+
+https://github.com/labring/FastGPT
+
+**MaxKB.** Agent gắn kho kiến thức, hướng doanh nghiệp. Khoảng 23 nghìn sao, khoảng 3.200 fork.
+
+https://github.com/1Panel-dev/MaxKB
+
+**LangBot.** Bot nhắn trên Telegram, Slack, WeChat, Feishu, DingTalk, QQ. Khoảng 18 nghìn sao, khoảng 1.600 fork. Không thấy Zalo trong danh sách kênh chính.
+
+https://github.com/langbot-app/LangBot
+
+**Botpress.** Dựng bot hội thoại. Khoảng 15 nghìn sao, khoảng 2.300 fork.
+
+https://github.com/botpress/botpress
+
+**Typebot.** Chat hỏi từng bước trên web, dùng lúc đưa khách vào dùng. Khoảng 10 nghìn sao, khoảng 3.200 fork.
+
+https://github.com/baptisteArno/typebot.io
 
 **Claude Skills.** Khoảng 28 nghìn sao, gần 4 nghìn fork. Trong này có skill customer success: điểm sức khỏe tài khoản, rủi ro hủy, và chỗ bán thêm. Bộ không chỉ để giữ khách.
 
