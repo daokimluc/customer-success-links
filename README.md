@@ -6,6 +6,74 @@ Chỗ này là link cho việc sau khi đã bán: đưa khách vào dùng, giữ
 
 Hỗ trợ và giữ khách không phải một việc. Hỗ trợ là khi khách đã gặp lỗi và nhắn tới. Giữ khách là chủ động xem họ có đạt được việc họ mua không.
 
+Phần chính là skill AI và agent cho việc giữ khách. Khóa và ticket ở sau.
+
+## Skill AI và agent
+
+Đây là phần chính. Agent ở đây là bot trả lời từ tài liệu, hoặc skill soạn onboarding và điểm tài khoản. Nó không được tự giảm giá để giữ khách. Câu khó và câu đang giận thì người phải nhận. Số sao khoảng tháng 10/2026.
+
+**Dify.** Dựng bot hỗ trợ và quy trình nhiều bước. Khoảng 158 nghìn sao, khoảng 25 nghìn fork.
+
+https://github.com/langgenius/dify
+
+**RAGFlow.** Tìm trong tài liệu rồi trả lời. Khoảng 92 nghìn sao, khoảng 11 nghìn fork.
+
+https://github.com/infiniflow/ragflow
+
+**AnythingLLM.** Bot chạy từ file mình đưa, ưu tiên máy mình. Khoảng 67 nghìn sao, khoảng 7.500 fork.
+
+https://github.com/Mintplex-Labs/anything-llm
+
+**Onyx.** Nhân viên tra tài liệu trước khi trả lời khách. Khoảng 32 nghìn sao, khoảng 4.500 fork.
+
+https://github.com/onyx-dot-app/onyx
+
+**FastGPT.** Bot gắn kho tài liệu, có sẵn luồng việc. Khoảng 30 nghìn sao, khoảng 7 nghìn fork.
+
+https://github.com/labring/FastGPT
+
+**Claude Skills.** Khoảng 28 nghìn sao, gần 4 nghìn fork. Có skill customer success: điểm sức khỏe tài khoản, rủi ro hủy, chỗ bán thêm. Bộ không chỉ để giữ khách.
+
+https://github.com/alirezarezvani/claude-skills
+
+**n8n MCP.** Agent dựng cảnh báo khi khách im, và nối ticket với email. Khoảng 23 nghìn sao, khoảng 3.700 fork.
+
+https://github.com/czlonkowski/n8n-mcp
+
+**MaxKB.** Agent gắn kho kiến thức. Khoảng 23 nghìn sao, khoảng 3.200 fork.
+
+https://github.com/1Panel-dev/MaxKB
+
+**LangBot.** Bot trên Telegram, Slack, WeChat, Feishu, DingTalk, QQ. Khoảng 18 nghìn sao, khoảng 1.600 fork. Không thấy Zalo trong danh sách kênh chính.
+
+https://github.com/langbot-app/LangBot
+
+**Botpress.** Bot hội thoại. Khoảng 15 nghìn sao, khoảng 2.300 fork.
+
+https://github.com/botpress/botpress
+
+**Typebot.** Hỏi từng bước lúc đưa khách vào dùng. Khoảng 10 nghìn sao, khoảng 3.200 fork.
+
+https://github.com/baptisteArno/typebot.io
+
+**Cossistant.** Nền hỗ trợ có agent AI, tự host. Khoảng 730 sao.
+
+https://github.com/cossistantcom/cossistant
+
+**TGO.** Nền agent cho chăm sóc khách: nhiều agent, RAG, nhiều kênh, người vẫn vào được cuộc chat. Khoảng 620 sao, khoảng 120 fork.
+
+https://github.com/tgoai/tgo
+
+**GTM Agents.** Có phần giữ khách, cùng với bán và marketing. Khoảng 410 sao, khoảng 80 fork.
+
+https://github.com/gtmagents/gtm-agents
+
+**Claude for Customer Success.** Bộ skill riêng: nghiên cứu tài khoản, onboarding, gia hạn. Khoảng 60 sao. Mới, ít người dùng hơn các nền ở trên.
+
+https://github.com/t0ddc3by/claude-for-customer-success
+
+Flowise đã bị archive, đừng cài mới. Việc tương tự thì dùng Dify. Khóa và phần mềm ticket nằm bên dưới.
+
 ## Tiếng Việt
 
 Nghề này ở Việt Nam ít tài liệu riêng. Phần có sách là trải nghiệm khách hàng, không phải giáo trình customer success cho công ty phần mềm.
@@ -168,9 +236,8 @@ https://github.com/frappe/helpdesk
 
 ### Agent và plugin
 
-Skill là file hướng dẫn cho Claude, Cursor, Codex. Nó soạn kế hoạch onboarding, tóm tắt tài khoản, nháp bài họp. Agent bên dưới là phần mềm để dựng bot trả lời từ tài liệu. Cả hai đều không được tự giảm giá để giữ khách. Câu khó và câu đang giận thì người phải nhận.
+Bản đủ, gồm cả Cossistant và TGO, nằm ở đầu file. Mục dưới là các nền agent đã liệt kê trước đó.
 
-Repo skill chỉ làm mỗi việc giữ khách hiện còn ít sao. Phần đông người dùng nằm ở các nền agent bên dưới.
 
 **Dify.** Dựng bot và quy trình AI, kèm tìm trong tài liệu. Khoảng 158 nghìn sao, khoảng 25 nghìn fork.
 
